@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/1.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.logo {
+    width: 160px;
+    height: 40px;
+}
+
+.active {
+    color: #0db0dc !important;
+}
+
+nav {
+    padding: 10px 20px;
+    width: 70%;
+    border-radius: 30px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.893);
+}
+
+.home-container {
+    width: 70%;
+    margin: auto;
+}
+
+form {
+    width: 70%;
+}
+
+@media screen and (max-width:600px) {
+    .home-container {
+        width: 93%;
+        margin: auto;
+        font-size: 18px;
+    }
+    form {
+        width: 100% !important;
+    }
+    .logo {
+        margin-left: 0!important;
+    }
+}
+
+.nav-item a {
+    transition: .5s all;
+    color: rgba(255, 255, 255, 0.705);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.nav-item a:hover,
+i:hover {
+    color: #0db0dc !important;
+}
+
+.town {
+    border: 1px solid rgb(255, 255, 255) !important;
+}
+
+.day {
+    background-color: rgba(0, 0, 0, 0.741);
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.day0 {
+    background-color: rgba(0, 0, 0, 0.52);
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.253);
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+i {
+    transition: .5s all;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+nav img {
+    width: 100px;
+    height: 70px;
+}
+
+li a {
+    padding: 0px 25px !important;
+}
+
+.status {
+    color: #0db0dc;
+}
+
+.weatherIcon {
+    width: 130px;
+}
+
+::placeholder {
+    color: rgb(226, 226, 226);
+}

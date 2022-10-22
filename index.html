@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-black bg-opacity-75  my-2">
+        <div class="container">
+            <div class="logo ms-3 text-white align-items-center d-flex">
+                <img src=".//images/images-removebg-preview.png" class="logo" alt="">
+                <h3 class="fw-bolder fs-4 mt-1">Weather</h3>
+            </div>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon "></span>
+    </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item ">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Live Cameras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Photo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="home-container mt-1 pt-4">
+        <form class="d-flex justify-content-betwean mb-3 py-2 mx-auto px-3 rounded-5">
+            <input class="text-white me-2 w-100 rounded-5 p-2  px-4 bg-dark bg-opacity-50" id="search" type="search" placeholder="Find Your locatoin..." aria-label="Search">
+            <button class="btn text-white bg-black rounded-5 px-4" type="submit">Find</button>
+        </form>
+
+        <div class="row p-3" id="showDay">
+
+
+        </div>
+        <footer class="bg-black bg-opacity-75 rounded-3 p-3 text-white text-center">
+            <p>Copyright 2014 Company name. Designed by AmrSAbry. All rights reserved</p>
+            <div>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-github"></i>
+        </footer>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
